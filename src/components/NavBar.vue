@@ -16,16 +16,16 @@ export default {
       <div class="hidden w-full md:block md:w-auto " id="navbar-solid-bg">
         <ul class="flex flex-col font-medium rounded-lg bg-gray-50 md:flex-row md:bg-inherit dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700 mx-36 -mt-7">
           <LiNav>
-            <RouterLink to="">Home</RouterLink>
+            <RouterLink class="opacity-40 focus:opacity-90" to="">Home</RouterLink>
           </LiNav>
           <LiNav>
-            <RouterLink to="#">Projetos</RouterLink>
+            <RouterLink class="opacity-40 focus:opacity-90" to="#">Projetos</RouterLink>
           </LiNav>
           <LiNav>
-            <RouterLink to="about">Sobre</RouterLink>
+            <RouterLink class="opacity-40 focus:opacity-90" to="about">Sobre</RouterLink>
           </LiNav>
           <LiNav>
-            <RouterLink to="#">Ajuda</RouterLink>
+            <RouterLink class="opacity-40 focus:opacity-90" to="#">Ajuda</RouterLink>
           </LiNav>
         </ul>
       </div>
