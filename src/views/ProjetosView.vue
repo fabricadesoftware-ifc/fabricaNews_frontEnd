@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from "../components/NavBar.vue";
 import Projetos from "../components/Projetos.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import Projetos from "../components/Projetos.vue";
   <main class="w-full flex flex-col items-center">
     <Projetos />
   </main>
-  <footer></footer>
+  <footer >
+    <Footer />
+  </footer>
 </template>

@@ -1,14 +1,9 @@
 <script setup></script>
 <template>
-  <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-    <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-    >
-      <a href="/" class="flex items-center">
-        <span
-          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-          >Fabrica News</span
-        >
+<nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fabrica News</span>
       </a>
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul
@@ -29,11 +24,7 @@
             >
           </li>
           <li>
-            <RouterLink
-              to="about"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Sobre</RouterLink
-            >
+            <RouterLink to="sobre" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sobre</RouterLink>
           </li>
           <li>
             <RouterLink
